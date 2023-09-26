@@ -197,12 +197,11 @@ ul {
     cursor: pointer;
 }
 .card:hover .play-container {
-    display: block;
+    opacity: 1;
     background-color: rgba(0, 0, 0, 0.2);
 }
-
 .bottom-card:hover .play-container {
-    display: block;
+    opacity: 1;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 50%;
 }
@@ -220,7 +219,7 @@ ul {
     transform: translate(-50% , -50%);
 }
 .play-container {
-    display: none;
+    opacity: 0;
     width: 100%;
     height: 100%;
     font-size: 5em;
@@ -230,7 +229,11 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000;
+    transition: all 1s;
 }
+
+/* toolbar */
+
 
 
 /* flex */
