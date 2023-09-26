@@ -114,6 +114,9 @@ ul {
 .txt-center {
     text-align: center;
 }
+.rounded-image {
+    border-radius: 50%;
+}
 
 /* sidebar */
 
@@ -180,10 +183,21 @@ ul {
     padding: 0 20px;
     cursor: pointer;
 }
+.bottom-card {
+    width: calc(100% / 6);
+    padding: 0 20px;
+    cursor: pointer;
+}
 .card:hover .fa-circle-play{
     display: block;
     padding: 125px;
     background-color: rgba(0, 0, 0, 0.2);
+}
+.bottom-card:hover .rounded {
+    display: block;
+    padding: 125px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
 }
 .card-image {
     position: relative;
@@ -200,6 +214,7 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 /* flex */
 
