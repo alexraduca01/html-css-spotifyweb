@@ -89,9 +89,9 @@ ul {
 .padding-left-15 {
     padding-left: 15px;
 }
-.icon-resize {
-    transform: translateY(-0.075em);
-    font-size: 1.5em;
+.img-resize {
+    width: 35px;
+    transform: translateY(10px);
 }
 .d-inline {
     display: inline;
