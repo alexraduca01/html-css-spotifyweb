@@ -63,6 +63,7 @@ main {
     height: 100%;
     padding: 140px 30px 30px 30px;
     background-color: var(--color-dark-color);
+    overflow-y: auto;
 }
 .toolbar {
     width: 100%;
@@ -160,7 +161,7 @@ ul {
     border: 2px solid var(--color-white);
     padding: 15px 40px;
     border-radius: 30px;
-    margin-right: 10px;
+    margin-right: 25px;
 }
 .upgrade-button:hover {
     cursor: pointer;
