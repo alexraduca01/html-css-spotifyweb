@@ -46,7 +46,6 @@ main {
     height: calc(100% - 80px);
     position: fixed;
     left: 0;
-    padding-left: 15px;
     background-color: var(--color-black);
 }
 .container {
@@ -88,6 +87,9 @@ main {
 .px-10 {
     padding-left: 10px;
     padding-right: 10px;
+}
+.padding-left-15 {
+    padding-left: 15px;
 }
 .icon-resize {
     transform: translateY(-0.075em);
