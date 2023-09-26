@@ -152,13 +152,29 @@ ul {
     cursor: pointer;
 }
 
+/* main content */
+
+.line {
+    margin: 0 auto;
+    margin-top: 5px;
+    border-top: 1px solid var(--color-highlight);
+    width: 40px;
+}
+
 /* flex */
 
 .justify-flex-end {
     display: flex;
     justify-content: flex-end;
 }
-.align-center {
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+.align-items-center {
     display: flex;
     align-items: center;
+}
+.gap-30 {
+    gap: 30px;
 }
