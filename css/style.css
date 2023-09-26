@@ -31,9 +31,6 @@ body {
 .txt-white {
     color: var(--color-white);
 }
-ul {
-    list-style: none;
-}
 
 /* layout */
 
@@ -49,8 +46,6 @@ main {
     background-color: var(--color-black);
 }
 .container {
-    display: flex;
-    justify-content: flex-end;
     width: 100%;
     height: 100%;
 }
@@ -80,6 +75,9 @@ main {
 
 /* utility */
 
+ul {
+    list-style: none;
+}
 .my-20 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -97,6 +95,9 @@ main {
 }
 .d-inline {
     display: inline;
+}
+.txt-uppercase {
+    text-transform: uppercase;
 }
 
 /* sidebar */
@@ -137,4 +138,27 @@ main {
     background-color: var(--color-grey);
     border-radius: 50%;
     transform: translateY(10px);
+}
+
+/* call to action */
+
+.upgrade-button {
+    border: 2px solid var(--color-white);
+    padding: 15px 40px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.upgrade-button:hover {
+    cursor: pointer;
+}
+
+/* flex */
+
+.justify-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+.align-center {
+    display: flex;
+    align-items: center;
 }
