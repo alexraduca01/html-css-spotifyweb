@@ -376,3 +376,15 @@ ul {
         font-size: 1.5em;
     }
 }
+@media screen and (max-width: 576px) {
+   .px-10 {
+        padding: 0 5px;
+   }
+   .magin-right-15 {
+        display: block;
+        margin: 0;
+   }
+   .padding-right-30 {
+    padding-right: 10px;
+   }
+}
