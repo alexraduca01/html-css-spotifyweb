@@ -12,7 +12,7 @@
 	--color-white: #FFFFFF;
 	--color-grey: #717171;
 	--color-light-grey: #C1C1C1;
-	--color-highlight: #ADFF2F;
+	--color-highlight: #adff2f;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -136,8 +136,11 @@ ul {
 }
 .cursor-pointer {
     cursor: pointer;
+    transition: all 1s;
 }
-
+.cursor-pointer:hover {
+    color: var(--color-highlight);
+} 
 
 /* sidebar */
 
@@ -155,8 +158,8 @@ ul {
     padding-top: 15px;
     margin: 0 auto;
 }
-.fa-ul {
-    margin-left: 1.5em;
+.fa-plus:hover {
+    color: var(--color-white);
 }
 .fa-plus {
     transform: translateY(0.1em);
@@ -190,10 +193,14 @@ ul {
     border: 2px solid var(--color-white);
     padding: 15px 40px;
     border-radius: 30px;
-    margin-right: 25px;
+    margin-right: 70px;
+    transition: all 1s;
 }
 .upgrade-button:hover {
     cursor: pointer;
+    transform: scale(125%);
+    color: var(--color-highlight);
+    border: 2px solid var(--color-highlight);
 }
 
 /* main content */
@@ -216,6 +223,12 @@ ul {
     width: calc(100% / 6);
     padding: 0 20px;
     cursor: pointer;
+}
+.card:hover .card-content > h4 {
+    color: var(--color-highlight);
+}
+.bottom-card:hover .card-content > h4 {
+    color: var(--color-highlight);
 }
 .bottom-card {
     width: calc(100% / 6);
@@ -240,6 +253,7 @@ ul {
 }
 .hover-play {
     position: absolute;
+    color: var(--color-highlight);
     font-size: 5vw;
     top: 50%;
     left: 50%;
