@@ -339,6 +339,9 @@ ul {
 
 /* media query */
 @media screen and (max-width: 1200px) {
+    .main-content {
+        padding: 140px 15px 15px 15px;
+    }
     .card, .bottom-card {
         width: calc(100% / 4);
         margin-bottom: 20px;
@@ -406,5 +409,8 @@ ul {
    }
    .padding-right-30 {
     padding-right: 10px;
+   }
+   .main-content {
+    padding: 140px 10px 10px 10px;
    }
 }
