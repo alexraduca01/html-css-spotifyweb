@@ -231,7 +231,7 @@ ul {
     display: block;
     width: 100%;
 }
-.fa-circle-play {
+.hover-play {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -257,7 +257,7 @@ ul {
     width: 50px;
     display: block;
 }
-.fa-play {
+.toolbar-play {
     font-size: 1.4em;
     transform: translateY(-0.06em);
 }
