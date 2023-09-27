@@ -320,3 +320,8 @@ ul {
         margin-bottom: 20px;
     }
 }
+@media screen and (max-width: 1024px) {
+    .card, .bottom-card {
+        width: calc(100% / 3);
+    }
+}
