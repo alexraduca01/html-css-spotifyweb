@@ -134,6 +134,9 @@ ul {
 .font-little {
     font-size: 0.7em;
 }
+.cursor-pointer {
+    cursor: pointer;
+}
 
 /* sidebar */
 
@@ -233,6 +236,7 @@ ul {
 }
 .hover-play {
     position: absolute;
+    font-size: 5vw;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
@@ -241,7 +245,6 @@ ul {
     opacity: 0;
     width: 100%;
     height: 100%;
-    font-size: 5em;
     position: relative;
     position: absolute;
     top: 50%;
@@ -265,7 +268,7 @@ ul {
     accent-color: var(--color-white);
     background: var(--color-grey);
     cursor: pointer;
-    width: 35em;
+    width: 20vw;
     height: 5px;
     border-radius: 2px;
     transform: translateY(-0.25em);
@@ -274,7 +277,7 @@ ul {
     accent-color: var(--color-white);
     background: var(--color-grey);
     cursor: pointer;
-    width: 10em;
+    width: 5vw;
     height: 5px;
     border-radius: 2px;
     transform: translateY(-0.25em);
@@ -308,4 +311,12 @@ ul {
 }
 .gap-30 {
     gap: 30px;
+}
+
+/* media query */
+@media screen and (max-width: 1200px) {
+    .card, .bottom-card {
+        width: calc(100% / 4);
+        margin-bottom: 20px;
+    }
 }
