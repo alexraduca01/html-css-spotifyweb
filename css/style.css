@@ -262,8 +262,7 @@ ul {
     transform: translateY(-0.06em);
 }
 .big-range {
-    -webkit-appearance: none;
-    appearance: none;
+    accent-color: var(--color-white);
     background: var(--color-grey);
     cursor: pointer;
     width: 35em;
@@ -272,8 +271,7 @@ ul {
     transform: translateY(-0.25em);
 }
 .little-range {
-    -webkit-appearance: none;
-    appearance: none;
+    accent-color: var(--color-white);
     background: var(--color-grey);
     cursor: pointer;
     width: 10em;
