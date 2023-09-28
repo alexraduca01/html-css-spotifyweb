@@ -141,6 +141,10 @@ ul {
 .cursor-pointer:hover {
     color: var(--color-highlight);
     font-size: 1.2em;
+}
+.overflow {
+    overflow-y: auto;
+    height: 15vh;
 } 
 
 /* sidebar */
@@ -173,7 +177,7 @@ ul {
     background-color: var(--color-grey);
 }
 .bottom-sidebar {
-    width: calc(100% - 15px);
+    width: 100%;
     background-color: var(--color-black);
     position: absolute;
     bottom: 0;
@@ -409,9 +413,12 @@ ul {
         margin: 0;
    }
    .padding-right-30 {
-    padding-right: 10px;
+        padding-right: 10px;
    }
    .main-content {
-    padding: 140px 10px 10px 10px;
+        padding: 140px 10px 10px 10px;
+   }
+   .bottom-sidebar {
+        width: calc(100% - 15px);
    }
 }
