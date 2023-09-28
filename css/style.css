@@ -144,7 +144,7 @@ ul {
 }
 .overflow {
     overflow-y: auto;
-    height: 15vh;
+    height: 20vh;
 } 
 
 /* sidebar */
@@ -420,5 +420,32 @@ ul {
    }
    .bottom-sidebar {
         width: calc(100% - 15px);
+   }
+}
+@media screen and (max-width: 479px) {
+    .upgrade-button {
+        padding: 5px 10px;
+        margin-right: 40px;
+    }
+    .main-content > ul {
+        justify-content: space-between;
+    }
+    .card, .bottom-card {
+        width: calc(100%);
+    }
+   .disappear-playbar {
+        display: none;
+   }
+   .playbar-utilities {
+        font-size: 1.5em;
+   }
+   .toolbar-play {
+        transform: translateY(0.05em);
+   }
+   .fa-list {
+        font-size: 1.5em;
+   }
+   .hover-play {
+    font-size: 15vw;
    }
 }
